@@ -1,0 +1,127 @@
+
+
+body{
+    background-color: rgb(34,40,49);
+    color: white;
+}
+
+/* ------------------ABOUT SECTION------------  */
+
+b{
+    color: rgb(151, 88, 211)
+}
+
+#myDetails{
+
+    display: inline-block;
+    height: 40vh;
+    margin-bottom: 1rem;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+#me{
+    display: inline-block;
+    border: 2px solid rgb(152, 82, 218);
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+    background-image: url("profile\ img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+
+}
+
+#overview{
+
+    margin-left: 8vw;
+    margin-top: 5vh;
+    display: inline-block;
+    font-size: larger;
+
+}
+
+#name{
+
+    text-align: center;
+    color: rgb(152, 82, 218);
+    text-decoration: underline ;
+
+}
+
+/* ------------------CONTENT SECTION------------  */
+
+#content{
+
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+h3{
+    background-color: rgb(151, 88, 211);
+    font-size: larger;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+}
+
+#projects{
+    margin-top: 10rem;
+}
+
+.projects{
+
+    border: 3px solid rgb(151, 88, 211);
+    display: inline-block;
+    height: 50vh;
+    width: 40vh;
+    margin-right: 2rem;
+    border-radius: 10%;
+
+}
+
+.p{
+    height: 40vh;
+    width: 40vh;
+    margin-bottom: 2rem;
+}
+
+#p1{
+    background-image: url(ttt\ game.jpg);
+    background-size: contain;
+    border-radius: 10%;
+}
+
+#p2{
+    background-image: url(dc.jpg);
+    background-size: contain;
+    border-radius: 10%;
+}
+
+#p3{
+    background-image: url(canvas.png);
+    background-size: contain;
+    border-radius: 10%;
+}
+
+
+/* ------------------FOOTER SECTION------------  */
+
+#footer{
+    height: 15vh;
+}
+
+.account{
+    display: inline-block;
+    padding-right: 6vw;
+    margin-top: 1rem;
+    
+}
+
+.connect{
+    text-align: center;
+    margin-left: 6vw;
+}
