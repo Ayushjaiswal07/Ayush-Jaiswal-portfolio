@@ -124,6 +124,7 @@ h3{
     height: 40vh;
     width: 40vh;
     margin-bottom: 2vh;
+    background-repeat: no-repeat;
 }
 
 #p1{
@@ -140,6 +141,12 @@ h3{
 
 #p3{
     background-image: url(canvas.png);
+    background-size: contain;
+    border-radius: 10%;
+}
+
+#p4{
+    background-image: url(currency.jfif);
     background-size: contain;
     border-radius: 10%;
 }
